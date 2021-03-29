@@ -1,0 +1,27 @@
+.header{
+    border: 2px solid red;
+padding-left: 30%;
+padding-top: 5%;padding-bottom: 5%;
+
+}.nav{border:2px solid blue}
+.menu{
+    display:flex;
+    justify-content: space-evenly;
+}
+.contener{border: 2px solid green;}
+.wykres{display:flex;
+    justify-content: space-evenly;
+    border: 5px  solid blue;
+    height: 2in;
+}
+.slupek{
+    border:2px solid yellow;
+    width: 10%;
+}
+.s1{height:2cm;}
+.s2{height:2cm;}
+.s3{height:3cm;}
+.s4{height:2cm;}
+.s5{height:3cm;}
+}
+
