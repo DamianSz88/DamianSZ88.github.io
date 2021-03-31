@@ -1,0 +1,36 @@
+body{background-image: url(oriental-tiles.png);
+    color:white;
+
+}
+img{
+    max-width:100%;
+}
+.topHeader{
+    text-align:center;
+}
+.TopNav{
+    display:flex;
+    justify-content:space-evenly;
+
+}
+.content{
+    border:2px dashed green;
+    display: flex;
+
+    
+}
+main{padding :1%;
+    border:2px dashed white;
+    flex:3;
+}
+aside{padding:1%;
+    border:2px dashed yellow;
+    flex:1;
+}   
+.polecane {
+    border:2px dashed white ;
+    margin-top: 3%;
+}
+p{
+    margin: 0%;
+}
