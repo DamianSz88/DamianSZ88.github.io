@@ -1,0 +1,10 @@
+.grid{
+    border: 2px dashed green;
+   display :grid; 
+   grid-template-areas: "a b c""d e c";
+}
+a:nth-child(1){grid-area: a;}
+a:nth-child(2){grid-area: b;}
+a:nth-child(3){grid-area: c;}
+a:nth-child(4){grid-area: d;}
+a:nth-child(5){grid-area: e;}
