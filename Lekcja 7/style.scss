@@ -1,0 +1,61 @@
+$primaryColor:red;
+$secondaryColor:white;
+%centerned{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+*{
+    box-sizing: border-box;
+}
+img{
+    max-width: 60%;
+}
+body{
+    background-color: bisque;
+h1{
+    @extend %centerned;
+
+}
+
+.twoCols{
+    border: 2px dashed red ;
+    display:flex;
+    flex:2px;
+    padding-left: 2%;
+    color: $primaryColor;
+    background-color: $secondaryColor;
+    header{
+        flex:2;
+    }
+}
+
+   .imgHolder{
+       @extend%centerned;
+       border:2px dashed green;
+       flex:1;
+       background-color:$primaryColor;
+       padding:5%    
+   }
+}
+main{
+    border:2px dashed green;
+    display:flex ;
+    flex-wrap: wrap;
+    justify-content: center;
+    div{
+        border:2px dashed blue;
+        width:30vw;
+        height: 30vw;
+        background-size: cover;
+        background-position:center ;
+    } 
+
+    @for $i from 1 to 7 {
+       
+        div:nth-child(#{$i}){
+            background-image: url(img/d#{$i}.jpg);
+        }
+    }
+}
