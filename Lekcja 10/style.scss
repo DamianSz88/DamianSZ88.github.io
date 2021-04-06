@@ -1,0 +1,38 @@
+element.style{
+    margin:2%;
+    padding:2%
+
+}
+header{
+    display:block;
+
+}
+body{
+    background-color: yellow;
+    color: black;
+}
+body{
+    display: block;
+    margin:8px;
+}
+body section{
+    border: 2px solid green;
+    margin:2%;
+    padding:2%;
+    background-color :green;
+
+    
+
+}
+section{
+    display:block;
+
+}
+body{
+    background-color: rgb(93, 228, 93);
+    color: yellow;
+}
+body section:nth-child(odd){
+    text-align: right;
+    color:white;
+}
