@@ -30,7 +30,7 @@ section {
 
 body {
   background-color: #5de45d;
-  color: white;
+  color: yellow;
 }
 
 body section:nth-child(odd) {
